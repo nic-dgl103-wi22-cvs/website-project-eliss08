@@ -20,7 +20,8 @@ color: #8AB0C4
 .card-container {
     background-color: #8AB0C4;
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: row;
+    flex-wrap: row nowrap;
     justify-content: space-evenly;
     align-content: center;
 }
