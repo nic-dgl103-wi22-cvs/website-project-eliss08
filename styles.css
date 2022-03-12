@@ -43,7 +43,7 @@ nav a:hover {color: #241C14;}
     margin: 15px;
     text-align: center;
     width: 15%;
-    background-image: src="imag/black-board.jpg";
+    background-image: url("imag/black-board.jpg");
     background-size: cover;
 }
 /* Review Cards End */
