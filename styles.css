@@ -6,6 +6,10 @@ body {
 a:link {
     color: #CEDFE7;
 }
+article {
+    background-image: url(imag/text-bg.png);
+    padding: 20px;
+}
 
 /*
 color: #B69344
