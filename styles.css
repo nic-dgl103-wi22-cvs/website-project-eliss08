@@ -109,15 +109,14 @@ p
   height:18em;
 }
 
-.property-card:hover 
+.property-card:hover .property-image
 {
   background-color:314B60;
 }
 
-.property-card:hover 
+.property-card:hover .property-image
 {
   background-color:blue;
-  cursor:pointer;
 }
 
 
