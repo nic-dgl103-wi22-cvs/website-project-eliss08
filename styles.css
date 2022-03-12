@@ -59,8 +59,8 @@ p
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius:16px;
   overflow:hidden;
-  -webkit-box-shadow:  15px 15px 27px #B5CBDA, -15px -15px 27px #759ABD;
-  box-shadow:  15px 15px 27px #B5CBDA, -15px -15px 27px #759ABD;
+  -webkit-box-shadow:  10px 10px 20px #B5CBDA, -10px -10px 20px #759ABD;
+  box-shadow:  10px 10px 20px #B5CBDA, -10px -10px 20px #759ABD;
 }
 /* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
 
@@ -97,21 +97,6 @@ p
   text-align:center;
 }
 
-/* Social Icons */
-
-.property-social-icons
-{
-  width:1em;
-  height:1em;
-  background-color:black;
-  position:absolute;
-  bottom:1em;
-  left:1em;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
 /* Property Cards Hover States */
 
 .property-card:hover .property-description
@@ -124,12 +109,12 @@ p
   height:18em;
 }
 
-.property-card:hover .property-social-icons
+.property-card:hover 
 {
-  background-color:white;
+  background-color:314B60;
 }
 
-.property-card:hover .property-social-icons:hover
+.property-card:hover 
 {
   background-color:blue;
   cursor:pointer;
