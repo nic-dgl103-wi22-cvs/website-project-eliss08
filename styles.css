@@ -6,20 +6,22 @@ body {
 a:link {
     color: #CEDFE7;
 }
-article {
+
+article { /* find out how to make just background opacity */
     background-image: url(imag/text-bg.png);
     padding: 20px;
 }
 
 /*
-color: #B69344
-color: #E2E1DF
-color: #554E4C
-color: #241C14
-color: #CEDFE7
-color: #B5CBDA
-color: #759ABD
-color: #8AB0C4
+color: #B69344 yellow
+color: #E2E1DF light
+color: #554E4C dark grey
+color: #241C14 dark brown
+color: #CEDFE7 light blue
+color: #B5CBDA medium blue 1
+color: #759ABD dark blue
+color: #8AB0C4 medium blue 2
+color: #314B60 navy
 */
 
 /* Nav Bar Start*/
