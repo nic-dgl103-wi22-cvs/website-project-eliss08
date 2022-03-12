@@ -20,11 +20,14 @@ color: #8AB0C4
 
 /* Nav Bar Start*/
 
-/* Nav Bar End*/
-nav a {text-decoration: none; padding: 10px; font-weight: bold;}
+nav a {text-decoration: none; padding: 10px; font-weight: 200;}
 nav a:link {color: #B69344;}
 nav a:hover {color: #241C14;}
+
+/* Nav Bar End*/
+
 /* Review Cards Start */
+
 .card-container {
     background-color: #8AB0C4;
     display: flex;
@@ -40,10 +43,13 @@ nav a:hover {color: #241C14;}
     margin: 15px;
     text-align: center;
     width: 15%;
+    background-image: src="imag/black-board.jpg";
+    background-size: cover;
 }
 /* Review Cards End */
 
 /* Link Cards Start */
+
 .link-container{
     background-color: #8AB0C4;
     display: flex;
