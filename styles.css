@@ -26,7 +26,12 @@ color: #314B60 navy
 
 /* Nav Bar Start*/
 
-nav a {text-decoration: none; padding: 10px; font-weight: 200;}
+nav a {
+    text-decoration: none; 
+    padding: 10px; 
+    font-weight: 200;
+    grid-column: 1/5;
+}
 nav a:link {color: #B69344;}
 nav a:hover {color: #241C14;}
 
