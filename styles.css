@@ -30,7 +30,6 @@ nav a {
     text-decoration: none; 
     padding: 10px; 
     font-weight: 200;
-    grid-column: 1/5;
 }
 nav a:link {color: #B69344;}
 nav a: :visited {color: #B69344;}
