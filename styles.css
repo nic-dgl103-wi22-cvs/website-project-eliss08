@@ -33,6 +33,7 @@ nav a {
     grid-column: 1/5;
 }
 nav a:link {color: #B69344;}
+nav a: :visited {color: #B69344;}
 nav a:hover {color: #241C14;}
 
 /* Nav Bar End*/
