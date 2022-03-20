@@ -33,13 +33,13 @@ color: #314B60 navy
 /* Nav Bar Start*/
 
 nav {
-    background-color: aqua;
+    background-color: #B5CBDA;
 }
 
 nav a {
     text-decoration: none;
     padding: 10px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 nav a:link {
