@@ -161,6 +161,8 @@ header {
 }
 
 .book-description {
+    color: #241C14;
+    font-size: 20px;
     margin-left: 350px;
     width: 450px;
     padding: 70px;
