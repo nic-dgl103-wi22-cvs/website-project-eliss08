@@ -203,6 +203,18 @@ header {
     align-items: center;
 }
 
+div a:link {
+    color: #CEDFE7;
+}
+
+div a:visited {
+    color: #CEDFE7;
+}
+
+div a:hover {
+    color: #B69344;
+}
+
 footer {
     padding: 50px;
     position: relative;
