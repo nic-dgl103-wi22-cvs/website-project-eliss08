@@ -203,6 +203,12 @@ header {
     width: 50%;
 }
 
+.author-bio {
+    margin: 3% 18% 8%;
+    padding: auto;
+    align-items: center;
+}
+
 
 /*add new css just for big 5 pages? messing up nav link colors*/
 
