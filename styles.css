@@ -197,6 +197,12 @@ header {
     width: 400px;
 }
 
+.big5-description {
+    margin: 18%;
+    padding: auto;
+    align-items: center;
+}
+
 footer {
     padding: 50px;
     position: relative;
