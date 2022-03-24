@@ -134,6 +134,10 @@ nav a:hover {
     border: 2px solid #333;
 }
 
+nav .menu-label {
+    display: none;
+}
+
 nav .toggle {
     display: none;
 }
@@ -262,6 +266,14 @@ footer p {}
 /* Medium devices (landscape tablets, 600px and down) */
 
 @media only screen and (max-width: 600px) {
+    nav {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .show-items {
+        display: flex;
+    }
     nav .toggle {
         align-self: flex-end;
         position: absolute;
