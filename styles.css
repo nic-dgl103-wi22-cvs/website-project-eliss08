@@ -134,6 +134,10 @@ nav a:hover {
     border: 2px solid #333;
 }
 
+nav .toggle {
+    display: none;
+}
+
 header {
     /* background-color: aqua; */
 }
@@ -253,3 +257,14 @@ footer:before {
 }
 
 footer p {}
+
+
+/* Medium devices (landscape tablets, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    nav .toggle {
+        align-self: flex-end;
+        position: absolute;
+        cursor: pointer;
+    }
+}
