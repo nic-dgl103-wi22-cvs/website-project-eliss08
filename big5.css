@@ -1,0 +1,29 @@
+/*
+color: #B69344 yellow
+color: #E2E1DF light
+color: #554E4C dark grey
+color: #241C14 dark brown
+color: #CEDFE7 light blue
+color: #B5CBDA medium blue 1
+color: #759ABD dark blue
+color: #8AB0C4 medium blue 2
+color: #314B60 navy
+*/
+
+.big5-description {
+    margin: 18%;
+    padding: auto;
+    align-items: center;
+}
+
+div a:link {
+    color: #CEDFE7;
+}
+
+div a:visited {
+    color: #CEDFE7;
+}
+
+div a:hover {
+    color: #B69344;
+}
