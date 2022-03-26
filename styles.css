@@ -128,7 +128,7 @@ nav .toggle {
 
 .wrapper {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 10% auto;
 }
 
 .book-image {
@@ -140,7 +140,7 @@ nav .toggle {
 
 .book-section {
     position: relative;
-    margin: 300px 0 250px 0;
+    margin: auto;
 }
 
 .book-description {
