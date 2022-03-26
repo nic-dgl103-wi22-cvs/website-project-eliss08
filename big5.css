@@ -16,15 +16,15 @@ color: #314B60 navy
     align-items: center;
 }
 
-div a:link {
+ol :link {
     color: #CEDFE7;
 }
 
-div a:visited {
+ol :visited {
     color: #CEDFE7;
 }
 
-div a:hover {
+ol :hover {
     color: #B69344;
 }
 
