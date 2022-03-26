@@ -220,27 +220,6 @@ header {
     align-items: center;
 }
 
-
-/*add new css just for big 5 pages? messing up nav link colors*/
-
-.big5-description {
-    margin: 18%;
-    padding: auto;
-    align-items: center;
-}
-
-div a:link {
-    color: #CEDFE7;
-}
-
-div a:visited {
-    color: #CEDFE7;
-}
-
-div a:hover {
-    color: #B69344;
-}
-
 footer {
     padding: 50px;
     position: relative;
