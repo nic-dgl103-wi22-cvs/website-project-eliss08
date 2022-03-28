@@ -40,7 +40,7 @@ nav {
 
 nav a {
     padding: 10px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 nav a:link {
@@ -279,6 +279,11 @@ button {
     resize: vertical;
 }
 
+.form-group2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .submit {
     font-weight: bold;
     margin-top: 1rem;
@@ -287,6 +292,8 @@ button {
     background: rgba(173, 216, 230, 0.7);
     cursor: pointer;
     transition: background 0.15s;
+    display: flex;
+    align-items: center;
 }
 
 i {
