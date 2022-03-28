@@ -241,6 +241,7 @@ button::selection {
 }
 
 .h1-form {
+    color: #554E4C;
     background-color: #CEDFE7;
     letter-spacing: 0.1rem;
     padding: 1rem;
@@ -251,6 +252,7 @@ form,
 input,
 textarea,
 button {
+    color: #554E4C;
     font-family: inherit;
     font-size: initial;
 }
@@ -265,7 +267,7 @@ button {
 .form-group textarea {
     width: 97%;
     padding: 1rem 0.8rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1.5px solid #759ABD;
     outline: 0;
     transition: border 0.15s;
 }
@@ -302,12 +304,13 @@ i {
 
 .submit:hover {
     background-color: #CEDFE7;
+    border: 1.5px solid #759ABD;
 }
 
 .form-group input[type="text"]:focus,
 .form-group input[type="email"]:focus,
 .form-group textarea:focus {
-    border: 1px solid #222;
+    border: 1px solid #554E4C;
 }
 
 
