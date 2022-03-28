@@ -45,3 +45,19 @@ ol :hover {
     text-align: left;
     width: 75%;
 }
+
+.arrow-r {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px;
+    width: 8px;
+    height: auto;
+}
+
+.arrow-l {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2px;
+    width: 8px;
+    height: auto;
+}
