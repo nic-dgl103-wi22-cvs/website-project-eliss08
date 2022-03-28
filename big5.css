@@ -46,17 +46,20 @@ ol :hover {
     width: 75%;
 }
 
-.arrow-r {
+.big5-nav {
     display: flex;
-    justify-content: flex-end;
-    padding: 2px;
-    width: 8px;
-    height: auto;
+    flex-flow: row nowrap;
 }
 
-.arrow-l {
-    display: flex;
+.wrapper-arrow-l {
     justify-content: flex-start;
+}
+
+.wrapper-arrow-r {
+    justify-content: flex-end;
+}
+
+.arrow {
     padding: 2px;
     width: 8px;
     height: auto;
