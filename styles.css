@@ -189,6 +189,7 @@ nav .toggle {
 .author-bio {
     margin: 3% 18% 8%;
     padding: auto;
+    /*error, fix when adjustments are made to background image*/
     align-items: center;
 }
 
@@ -218,16 +219,6 @@ footer p {}
 
 
 /*form from https://codepen.io/Ranjith_/details/abwzrxN*/
-
-h1::selection,
-label::selection,
-button::selection {
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
 .wrapper2 {
     width: 70%;
@@ -306,7 +297,6 @@ button {
 
 .form-group input[type="text"]:focus,
 .form-group input[type="email"]:focus,
-.form-group input[type="radio"]:focus,
 .form-group textarea:focus {
     border: 1px solid #554E4C;
 }

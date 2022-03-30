@@ -13,6 +13,7 @@ color: #314B60 navy
 .big5-description {
     margin: 18%;
     padding: auto;
+    /*error, fix when adjustments are made to background image*/
     align-items: center;
 }
 
