@@ -46,6 +46,8 @@ ol :hover {
     width: 75%;
 }
 
+
+/* for arrows to navigate big 5 pages
 .big5-nav {
     display: flex;
     flex-flow: row nowrap;
@@ -64,3 +66,4 @@ ol :hover {
     width: 8px;
     height: auto;
 }
+*/
