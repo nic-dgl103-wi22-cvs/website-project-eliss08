@@ -286,7 +286,7 @@ button {
     justify-content: flex-end;
 }
 
-.submit {
+.button {
     font-weight: bold;
     margin-top: 1rem;
     padding: 1rem 1.5rem;
@@ -298,11 +298,7 @@ button {
     align-items: center;
 }
 
-i {
-    margin-right: 0.5rem;
-}
-
-.submit:hover {
+.button:hover {
     background-color: #CEDFE7;
     border: 1.5px solid #759ABD;
 }
