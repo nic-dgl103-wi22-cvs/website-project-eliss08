@@ -264,6 +264,7 @@ button {
 
 .form-group input[type="text"],
 .form-group input[type="email"],
+.form-group input[type="radio"],
 .form-group textarea {
     width: 97%;
     padding: 1rem 0.8rem;
