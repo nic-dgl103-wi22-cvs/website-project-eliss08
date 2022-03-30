@@ -46,13 +46,14 @@ ol :hover {
     width: 75%;
 }
 
-
-/* for arrows to navigate big 5 pages
 .big5-nav {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
+
+/* for arrows to navigate big 5 pages
 .wrapper-arrow-l {
     justify-content: flex-start;
 }
