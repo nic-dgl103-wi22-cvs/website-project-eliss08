@@ -306,6 +306,7 @@ button {
 
 .form-group input[type="text"]:focus,
 .form-group input[type="email"]:focus,
+.form-group input[type="radio"]:focus,
 .form-group textarea:focus {
     border: 1px solid #554E4C;
 }
