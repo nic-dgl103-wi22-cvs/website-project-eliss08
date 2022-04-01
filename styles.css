@@ -254,7 +254,7 @@ fieldset {
 fieldset,
 .form-group textarea {
     width: 97%;
-    padding: 1rem 0.8rem;
+    padding: .5rem 0.8rem;
     border: 1.5px solid #759ABD;
     outline: 0;
     transition: border 0.15s;
@@ -276,7 +276,7 @@ fieldset,
 
 .button {
     font-weight: bold;
-    margin-top: 1rem;
+    margin: 1rem;
     padding: 1rem 1.5rem;
     border: 2px solid #CEDFE7;
     background-color: #CEDFE7;
