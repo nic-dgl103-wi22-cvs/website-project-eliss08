@@ -117,14 +117,16 @@ nav .toggle {
 .wrapper {
     max-width: 1140px;
     margin: 10% auto;
+}
+
+.wrapper3 {
+    max-width: 1140px;
+    margin: 10% auto;
     background-color: rgba(172, 192, 201, 0.78);
 }
 
 .book-image {
-    position: absolute;
     width: 300px;
-    left: 150px;
-    bottom: 60px;
 }
 
 .book-section {
@@ -132,15 +134,16 @@ nav .toggle {
     background-image: url(imag/text-bg.png);
     background-repeat: repeat;
     margin: 0;
+    display: flexbox;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
 .book-description {
     color: #241C14;
     font-size: 20px;
-    margin-left: 350px;
     width: 450px;
     padding: 70px;
-    position: relative;
 }
 
 .section-testimony {
