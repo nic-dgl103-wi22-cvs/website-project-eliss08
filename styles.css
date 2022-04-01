@@ -124,7 +124,7 @@ nav .toggle {
 
 .wrapper3 {
     margin: 0;
-    background-color: rgba(172, 192, 201, 0.78);
+    background-color: rgba(172, 192, 201, 0.80);
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -156,6 +156,7 @@ nav .toggle {
 .section-testimony {
     background-color: #8AB0C4;
     padding: 20px 0;
+    margin: 40px 0px;
 }
 
 
