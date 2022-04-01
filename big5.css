@@ -54,7 +54,8 @@ ol :hover {
 }
 
 .links {
-    background-color: #8AB0C4;
+    background-color: #E2E1DF;
+    border: 3px solid #8AB0C4;
     padding: 15px;
     margin: 15px;
     text-align: left;
