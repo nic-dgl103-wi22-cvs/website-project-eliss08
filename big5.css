@@ -72,5 +72,17 @@ ol :hover {
     justify-content: space-between;
 }
 
+div a:link {
+    color: #314B60;
+}
+
+div a:visited {
+    color: #314B60;
+}
+
+div a:hover {
+    color: #241C14;
+}
+
 
 /*END big5 nav on bottom of pages 1-5*/
