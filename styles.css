@@ -85,15 +85,15 @@ nav {
     padding: 10px;
 }
 
-li a:link {
+ul a:link {
     color: #B69344;
 }
 
-li a:visited {
+ul a:visited {
     color: #B69344;
 }
 
-li a:hover {
+ul a:hover {
     color: #314B60;
 }
 
