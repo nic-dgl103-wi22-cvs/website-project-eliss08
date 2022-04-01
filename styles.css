@@ -120,30 +120,31 @@ nav .toggle {
 }
 
 .wrapper3 {
-    max-width: 1140px;
-    margin: 10% auto;
+    margin: 0;
     background-color: rgba(172, 192, 201, 0.78);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .book-image {
     width: 300px;
+    height: auto;
+    padding: 40px 20px;
 }
 
 .book-section {
-    position: relative;
     background-image: url(imag/text-bg.png);
     background-repeat: repeat;
     margin: 0;
-    display: flexbox;
-    flex-flow: row nowrap;
-    justify-content: center;
 }
 
 .book-description {
     color: #241C14;
     font-size: 20px;
     width: 450px;
-    padding: 70px;
+    padding: 20px;
 }
 
 .section-testimony {
