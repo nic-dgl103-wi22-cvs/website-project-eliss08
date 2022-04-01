@@ -11,6 +11,18 @@ a:link {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 1.6rem;
+}
+
+
+/*add something special to font if you have time*/
+
+#h1 {
+    color: #554E4C;
+    margin-left: 15%;
+}
+
 
 /* article {
     /* find out how to make just background opacity
