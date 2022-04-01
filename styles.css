@@ -209,6 +209,9 @@ footer p {
 /*END of FOOTER*/
 
 
+/*START Button and Form*/
+
+
 /*form from https://codepen.io/Ranjith_/details/abwzrxN*/
 
 .wrapper2 {
@@ -228,6 +231,7 @@ footer p {
     letter-spacing: 0.1rem;
     padding: 1rem;
     cursor: default;
+    font-size: 1.4rem;
 }
 
 form,
@@ -236,7 +240,7 @@ textarea,
 button {
     color: #554E4C;
     font-family: inherit;
-    font-size: initial;
+    font-size: 1.15rem;
 }
 
 .form-group label {
@@ -273,7 +277,7 @@ button {
     font-weight: bold;
     margin-top: 1rem;
     padding: 1rem 1.5rem;
-    border: 1.8px solid #CEDFE7;
+    border: 2px solid #CEDFE7;
     background-color: #CEDFE7;
     cursor: pointer;
     transition: background 0.15s;
@@ -283,7 +287,7 @@ button {
 
 .button:hover {
     background-color: #CEDFE7;
-    border: 1.8px solid #759ABD;
+    border: 2px solid #759ABD;
 }
 
 .form-group input[type="text"]:focus,
@@ -291,6 +295,9 @@ button {
 .form-group textarea:focus {
     border: 1px solid #554E4C;
 }
+
+
+/*END Button and Form*/
 
 
 /*
