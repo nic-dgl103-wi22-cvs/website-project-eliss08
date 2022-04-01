@@ -11,14 +11,13 @@ color: #314B60 navy
 */
 
 .big5-description {
-    margin: 18%;
-    padding: 0;
-    background-color: #CEDFE7;
+    margin: 18px;
+    padding: 15px;
+    background-color: #E2E1DF;
 }
 
 .wrapper5 {
-    max-width: 1140px;
-    margin: 10% auto;
+    margin: 18%;
     align-items: center;
     background-image: url(imag/wallpaper-paint.jpg);
 }
