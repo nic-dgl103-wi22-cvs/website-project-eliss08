@@ -32,33 +32,6 @@ color: #314B60 navy
 */
 
 
-/* Nav Bar Start*/
-
-nav {
-    background-color: #B5CBDA;
-}
-
-nav a {
-    padding: 10px;
-    font-weight: 400;
-}
-
-nav a:link {
-    color: #B69344;
-}
-
-nav a:visited {
-    color: #B69344;
-}
-
-nav a:hover {
-    color: #314B60;
-}
-
-
-/* Nav Bar End*/
-
-
 /* Review Cards Start */
 
 .card-container {
@@ -89,6 +62,10 @@ nav a:hover {
 
 /* Top Navigation */
 
+nav {
+    background-color: #B5CBDA;
+}
+
 .navigation {
     display: flex;
     justify-content: space-evenly;
@@ -99,6 +76,19 @@ nav a:hover {
 .navigation a {
     font-size: 25px;
     font-weight: 400;
+    padding: 10px;
+}
+
+nav a:link {
+    color: #B69344;
+}
+
+nav a:visited {
+    color: #B69344;
+}
+
+nav a:hover {
+    color: #314B60;
 }
 
 .navigation li {
