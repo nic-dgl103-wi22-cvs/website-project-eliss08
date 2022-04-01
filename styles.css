@@ -84,15 +84,15 @@ nav {
     padding: 10px;
 }
 
-nav a:link {
+li a:link {
     color: #B69344;
 }
 
-nav a:visited {
+li a:visited {
     color: #B69344;
 }
 
-nav a:hover {
+li a:hover {
     color: #314B60;
 }
 
