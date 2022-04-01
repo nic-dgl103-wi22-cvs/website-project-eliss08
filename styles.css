@@ -311,6 +311,13 @@ label {
 
 /*END Button and Form*/
 
+.workshops {
+    color: #314B60;
+    background-color: #B5CBDA;
+    padding: 5% 25%;
+    margin: 10px 0px 20px;
+}
+
 
 /*START Upcoming Workshop*/
 
