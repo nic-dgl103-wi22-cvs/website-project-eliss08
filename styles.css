@@ -44,6 +44,7 @@ color: #314B60 navy
     flex-wrap: nowrap;
     justify-content: space-around;
     align-content: center;
+    padding: 20px 0;
     list-style: none;
     box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04), 0 0px 10px rgba(0, 0, 0, 0.05), 0 0px 17.9px rgba(0, 0, 0, 0.06), 0 0px 33.4px rgba(0, 0, 0, 0.072), 0 0px 80px rgba(0, 0, 0, 0.1);
 }
@@ -176,7 +177,7 @@ nav .toggle {
 
 .author-bio {
     margin: 3% 18% 8%;
-    padding: auto;
+    padding: 3% 0%;
     /*error, fix when adjustments are made to background image*/
     align-items: center;
 }
