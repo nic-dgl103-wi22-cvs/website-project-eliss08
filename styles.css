@@ -24,13 +24,6 @@ h2 {
 }
 
 
-/* article {
-    /* find out how to make just background opacity
-    background-image: url(imag/text-bg.png);
-    padding: 20px;
-} */
-
-
 /*
 color: #B69344 yellow
 color: #E2E1DF light
@@ -132,7 +125,7 @@ nav .toggle {
 }
 
 
-/*START "Home page and Book page" feature*/
+/*START "Home page and Book page" feature, used https://www.w3schools.com/css/css_colors_rgb.asp for opacity*/
 
 .wrapper3 {
     margin: 0;
