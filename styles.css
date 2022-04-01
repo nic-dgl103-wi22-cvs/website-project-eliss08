@@ -243,14 +243,15 @@ button {
     font-size: 1.15rem;
 }
 
-.form-group label {
+.form-group label,
+fieldset {
     display: block;
     margin: 2rem 0 2rem 0;
 }
 
 .form-group input[type="text"],
 .form-group input[type="email"],
-.form-group input[type="radio"],
+fieldset,
 .form-group textarea {
     width: 97%;
     padding: 1rem 0.8rem;
@@ -288,12 +289,6 @@ button {
 .button:hover {
     background-color: #CEDFE7;
     border: 2px solid #759ABD;
-}
-
-.form-group input[type="text"]:focus,
-.form-group input[type="email"]:focus,
-.form-group textarea:focus {
-    border: 1px solid #554E4C;
 }
 
 
