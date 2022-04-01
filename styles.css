@@ -119,6 +119,9 @@ nav .toggle {
     margin: 10% auto;
 }
 
+
+/*START "Home page and Book page" feature*/
+
 .wrapper3 {
     margin: 0;
     background-color: rgba(172, 192, 201, 0.78);
@@ -146,6 +149,9 @@ nav .toggle {
     width: 450px;
     padding: 20px;
 }
+
+
+/*END "Home page and Book page" feature*/
 
 .section-testimony {
     background-color: #8AB0C4;
