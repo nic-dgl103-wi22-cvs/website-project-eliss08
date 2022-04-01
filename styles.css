@@ -176,17 +176,32 @@ nav .toggle {
     align-items: center;
 }
 
+
+/*START of FOOTER*/
+
+.wrapper4 {
+    margin: 0;
+    background-color: rgba(70, 61, 50, 0.4);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     background-image: url(imag/texture-1.jpg);
     margin: 0;
 }
 
 footer p {
-    color: #241C14;
+    color: #E2E1DF;
     font-size: 20px;
-    width: 450px;
-    padding: 20px;
+    width: 800px;
+    padding: 10px;
 }
+
+
+/*END of FOOTER*/
 
 
 /*form from https://codepen.io/Ranjith_/details/abwzrxN*/
