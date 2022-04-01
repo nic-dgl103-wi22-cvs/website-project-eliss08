@@ -249,6 +249,9 @@ fieldset {
     margin: 2rem 0 2rem 0;
 }
 
+
+/*width at 97% lines up boxes perfectly on right side, do not adjust*/
+
 .form-group input[type="text"],
 .form-group input[type="email"],
 fieldset,
@@ -289,6 +292,14 @@ fieldset,
 .button:hover {
     background-color: #CEDFE7;
     border: 2px solid #759ABD;
+}
+
+.radio-button {
+    padding: 0px 3px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 
