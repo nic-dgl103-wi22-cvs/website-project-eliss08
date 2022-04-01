@@ -44,17 +44,18 @@ ol :hover {
 }
 
 .link-container {
-    background-color: #8AB0C4;
+    background-color: #314B60;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    padding: 15px;
 }
 
 .links {
     color: #CEDFE7;
-    background-color: #314B60;
+    background-color: #8AB0C4;
     padding: 15px;
     margin: 15px;
     text-align: left;
@@ -65,6 +66,7 @@ ol :hover {
 /*START big5 nav on bottom of pages 1-5*/
 
 .big5-nav {
+    margin: 10%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;

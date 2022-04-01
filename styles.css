@@ -281,6 +281,18 @@ button {
     align-items: center;
 }
 
+div a:link {
+    colour: #B69344;
+}
+
+div a:visited {
+    color: #B69344;
+}
+
+div a:hover {
+    color: #314B60;
+}
+
 .button:hover {
     background-color: #CEDFE7;
     border: 1.8px solid #759ABD;
