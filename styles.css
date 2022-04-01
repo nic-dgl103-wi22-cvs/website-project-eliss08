@@ -60,7 +60,7 @@ color: #314B60 navy
 /* Review Cards End */
 
 
-/* Top Navigation */
+/* START of NAV */
 
 nav {
     background-color: #B5CBDA;
@@ -111,6 +111,9 @@ nav .toggle {
     width: auto;
 }
 
+
+/* END of NAV */
+
 .wrapper {
     max-width: 1140px;
     margin: 10% auto;
@@ -125,7 +128,10 @@ nav .toggle {
 
 .book-section {
     position: relative;
-    margin: auto;
+    background-image: url(imag/text-bg.png);
+    background-repeat: repeat;
+    margin: 0;
+    z-index: -2;
 }
 
 .book-description {
