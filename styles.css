@@ -215,9 +215,8 @@ footer p {
 /*form from https://codepen.io/Ranjith_/details/abwzrxN*/
 
 .wrapper2 {
-    width: 70%;
     padding: 2rem;
-    margin: 15%;
+    margin: 8% 16%;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -311,15 +310,15 @@ label {
 
 /*END Button and Form*/
 
+
+/*START Upcoming Workshop*/
+
 .workshops {
     color: #314B60;
     background-color: #B5CBDA;
-    padding: 5% 25%;
+    padding: 5% 20%;
     margin: 10px 0px 20px;
 }
-
-
-/*START Upcoming Workshop*/
 
 
 /*End Upcoming Workshop*/
