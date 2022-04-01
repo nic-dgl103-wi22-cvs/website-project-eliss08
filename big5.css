@@ -20,7 +20,7 @@ color: #314B60 navy
     position: relative;
     display: inline-flex;
     /*inline-flex is what makes the border work under the text box*/
-    margin: 10%;
+    margin: 0% 15% 8%;
     align-items: center;
     background-image: url(imag/wallpaper-paint.jpg);
 }
