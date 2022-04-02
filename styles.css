@@ -360,17 +360,4 @@ label {
         display: flex;
         flex-direction: column;
     }
-    .show-items {
-        display: flex;
-    }
-    nav .toggle {
-        align-self: flex-end;
-        position: absolute;
-        cursor: pointer;
-    }
-    .nav-image {
-        display: flex;
-        align-items: flex-start;
-        order: 1;
-    }
 }
