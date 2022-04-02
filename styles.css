@@ -324,36 +324,6 @@ label {
 
 /*End Upcoming Workshop*/
 
-
-/*
-@media screen and (min-width: 576px) {
-    .wrapper {
-        width: 70%;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .wrapper {
-        width: 55%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .wrapper {
-        width: 45%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .wrapper {
-        width: 35%;
-    }
-}
-*/
-
-
-/* Medium devices (landscape tablets, 600px and down) */
-
 @media screen and (max-width: 600px) {
     .navigation,
     .wrapper3 {
