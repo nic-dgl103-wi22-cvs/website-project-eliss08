@@ -354,8 +354,8 @@ label {
 
 /* Medium devices (landscape tablets, 600px and down) */
 
-@media only screen and (max-width: 600px) {
-    nav {
+@media screen and (max-width: 600px) {
+    .navigation {
         padding: 20px;
         display: flex;
         flex-direction: column;
@@ -367,5 +367,10 @@ label {
         align-self: flex-end;
         position: absolute;
         cursor: pointer;
+    }
+    .nav-image {
+        display: flex;
+        align-items: flex-start;
+        order: 1;
     }
 }
