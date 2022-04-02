@@ -224,7 +224,7 @@ footer p {
 .wrapper2 {
     padding: 2rem;
     margin: 8% 16%;
-    background: #fff;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -264,7 +264,7 @@ fieldset,
 .form-group textarea {
     width: 97%;
     padding: .5rem 0.8rem;
-    border: 1.5px solid #759ABD;
+    border: 2px solid #759ABD;
     outline: 0;
     transition: border 0.15s;
 }
