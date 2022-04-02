@@ -1,3 +1,9 @@
+/*This website was made by Elissa Willms 2022 for DGL 103 at NIC Courtenay, B.C. Canada*/
+
+
+/*Photo Source used: https://pixabay.com/ and photos of Heather Willms's paintings and artwork.
+Colors used are from photo taken by Elissa Willms*/
+
 body {
     padding: 0;
     margin: 0;
@@ -126,7 +132,7 @@ nav .toggle {
 }
 
 
-/*START "Home page and Book page" feature, used https://www.w3schools.com/css/css_colors_rgb.asp for opacity*/
+/*START "Home page and Book page" feature, Source used: https://www.w3schools.com/css/css_colors_rgb.asp for opacity*/
 
 .wrapper3 {
     margin: 0;
@@ -166,7 +172,7 @@ nav .toggle {
 }
 
 
-/*https://www.w3schools.com/howto/howto_css_image_center.asp*/
+/*Source used: https://www.w3schools.com/howto/howto_css_image_center.asp*/
 
 .author-photo {
     display: block;
@@ -213,7 +219,7 @@ footer p {
 /*START Button and Form*/
 
 
-/*form from https://codepen.io/Ranjith_/details/abwzrxN*/
+/*Source used: https://codepen.io/Ranjith_/details/abwzrxN*/
 
 .wrapper2 {
     padding: 2rem;
@@ -295,7 +301,7 @@ fieldset,
 }
 
 
-/*https://www.w3schools.com/howto/howto_css_custom_checkbox.asp*/
+/*Source used: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp*/
 
 .checkbox {
     display: flex;
