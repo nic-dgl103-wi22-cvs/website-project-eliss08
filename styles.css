@@ -324,7 +324,7 @@ label {
 
 /*End Upcoming Workshop*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .navigation,
     .wrapper3 {
         padding: 20px;
@@ -341,5 +341,8 @@ label {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .book-description {
+        width: 85%;
     }
 }
