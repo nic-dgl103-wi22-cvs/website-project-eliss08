@@ -355,8 +355,13 @@ label {
 /* Medium devices (landscape tablets, 600px and down) */
 
 @media screen and (max-width: 600px) {
-    .navigation {
+    .navigation,
+    .wrapper3 {
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container {
         display: flex;
         flex-direction: column;
     }
