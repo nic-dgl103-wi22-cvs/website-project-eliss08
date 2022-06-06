@@ -1,124 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--This website was made by Elissa Willms 2022 for DGL 103 at NIC Courtenay, B.C. Canada-->
+  <!--This website was made by Elissa Willms 2022 for DGL 103 at NIC Courtenay, B.C. Canada-->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workshops</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="imag/favicon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Heather or request further information regarding her work</title>
+    <meta
+      name="description"
+      content="Contact Heather using the online form to book a workshop or request further information regarding her work"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="imag/favicon.png" />
 
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('RitB7tMAuoOGUrcFu');
-        })();
+      (function () {
+        emailjs.init('RitB7tMAuoOGUrcFu');
+      })();
     </script>
     <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('website-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-				const websiteFormEl = this;
-                emailjs.sendForm('service_w1ba6oj', 'template_9skgz6p', this)
-                    .then(function(values) {
-						console.log(values)
-						websiteFormEl.reset()
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
-
-            });
-        }
+      window.onload = function () {
+        document.getElementById('website-form').addEventListener('submit', function (event) {
+          event.preventDefault();
+          const websiteFormEl = this;
+          emailjs.sendForm('service_w1ba6oj', 'template_9skgz6p', this).then(
+            function (values) {
+              console.log(values);
+              websiteFormEl.reset();
+            },
+            function (error) {
+              console.log('FAILED...', error);
+            }
+          );
+        });
+      };
     </script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="wrapper">
-                <ul class="navigation">
-                    <li><a href="book.html">Book</a></li>
-                    <li><a href="big5.html">Big 5</a></li>
-                    <li>
-                        <a href="index.html"><img class="nav-image" src="imag/hw-logo.png" alt="Logo, will take you back to home page." /></a>
-                    </li>
-                    <li><a href="meetHeather.html">Meet Heather</a></li>
-                    <li><a href="workshops.html">Contact</a></li>
-                </ul>
+      <nav>
+        <div class="wrapper">
+          <ul class="navigation">
+            <li><a href="book.html">Book</a></li>
+            <li><a href="big5.html">Big 5</a></li>
+            <li>
+              <a href="index.html"><img class="nav-image" src="imag/hw-logo.png" alt="Logo, will take you back to home page." /></a>
+            </li>
+            <li><a href="meetHeather.html">Meet Heather</a></li>
+            <li><a href="workshops.html">Contact</a></li>
+          </ul>
 
-                <!--a href="handmade-books.html">Handmade Books</a This page has been temporarily take out-->
-            </div>
-        </nav>
+          <!--a href="handmade-books.html">Handmade Books</a This page has been temporarily take out-->
+        </div>
+      </nav>
     </header>
     <main>
-
-
-        <div class="wrapper2">
-
-            <h1 class="h1-form">Workshops and Information</h1>
-            <!--https://html.form.guide/email-form/php-form-to-email/-->
-            <form  autocomplete="on" id="website-form" >
-                <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" name="name" id="name" placeholder="First and Last Name" required minlength="3" maxlength="25" />
-                </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" name="email" id="email" placeholder="email@domain.com" required />
-                </div>
-                <div class="form-group">
-                    <fieldset>
-                        <div class="checkbox">
-                            <label for="book">Book A Workshop
-                            <input type="checkbox" id="book" name="interest" value="book">
-                            </label><br>
-
-                        </div>
-                        <div class="checkbox">
-                            <label for="info">Information Request
-                            <input type="checkbox" id="info" name="interest" value="info">
-                            </label><br>
-                        </div>
-                        <div class="checkbox">
-                            <label for="other">Other
-                            <input type="checkbox" id="other" name="interest" value="other">
-                            </label>
-                        </div>
-                    </fieldset>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5" placeholder="Type your message here..."></textarea>
-                </div>
-                <div class="form-group2">
-                    <button type="submit" value="Send Form" class="button">Send</button>
-                </div>
-
-            </form>
-        </div>
-        <!--UPDATE SPOT - change speaking event locations-->
-        <div class="workshops">
-            <h2>Heather&rsquo;s Upcoming Workshops</h2>
-            <ul>
-                <li>August 30 2022 in Courtenay, B.C. at <a href="https://www.comoxvalleyschools.ca/queneesh-elementary/" target="_blank">Queneesh Elementary</a></li>
-                <li>August 31 2022 in Valley View at <a href="https://www.harrygray.ca/" target="_blank">Harry Grey Elementary</a></li>
-                <li>October 24 2022 in Lantzville, B.C. <a href="https://www.sd68.bc.ca/schools/seaview-elementary/" target="_blank">Seaview Elementary</a></li>
-            </ul>
-
-        </div>
+      <div class="wrapper2">
+        <h1 class="h1-form">Workshops and Information</h1>
+        <!--https://html.form.guide/email-form/php-form-to-email/-->
+        <form autocomplete="on" id="website-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="First and Last Name" required minlength="3" maxlength="25" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="email@domain.com" required />
+          </div>
+          <div class="form-group">
+            <fieldset>
+              <div class="checkbox">
+                <label for="book">Book A Workshop <input type="checkbox" id="book" name="interest" value="book" /> </label><br />
+              </div>
+              <div class="checkbox">
+                <label for="info">Information Request <input type="checkbox" id="info" name="interest" value="info" /> </label><br />
+              </div>
+              <div class="checkbox">
+                <label for="other"
+                  >Other
+                  <input type="checkbox" id="other" name="interest" value="other" />
+                </label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" placeholder="Type your message here..."></textarea>
+          </div>
+          <div class="form-group2">
+            <button type="submit" value="Send Form" class="button">Send</button>
+          </div>
+        </form>
+      </div>
+      <!--UPDATE SPOT - change speaking event locations-->
+      <div class="workshops">
+        <h2>Heather&rsquo;s Upcoming Workshops</h2>
+        <ul>
+          <li>
+            August 30 2022 in Courtenay, B.C. at
+            <a href="https://www.comoxvalleyschools.ca/queneesh-elementary/" target="_blank">Queneesh Elementary</a>
+          </li>
+          <li>August 31 2022 in Valley View at <a href="https://www.harrygray.ca/" target="_blank">Harry Grey Elementary</a></li>
+          <li>
+            October 24 2022 in Lantzville, B.C.
+            <a href="https://www.sd68.bc.ca/schools/seaview-elementary/" target="_blank">Seaview Elementary</a>
+          </li>
+        </ul>
+      </div>
     </main>
     <footer>
-        <div class="wrapper4">
-            <p> </p>
-        </div>
+      <div class="wrapper4">
+        <p></p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
