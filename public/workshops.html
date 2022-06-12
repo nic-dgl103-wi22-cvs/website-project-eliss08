@@ -27,7 +27,7 @@
       window.onload = function () {
         document.getElementById('website-form').addEventListener('submit', function (event) {
           event.preventDefault();
-          const websiteFormEl = this;
+          const websiteFormEl = this;//change where email goes from form
           emailjs.sendForm('service_i5f9its', 'template_9skgz6p', this).then(
             function (values) {
               console.log(values);
